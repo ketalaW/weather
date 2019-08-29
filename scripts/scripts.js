@@ -56,8 +56,9 @@ function gradechange(id){
 
 
 function changelocation(value){
-    //var location = document.getElementById("location");
-   
+
+    //Projekt tworzony, był lokalnie co uniemożliwiało wykorzystanie OAuth 2.0 - przynajmniej wymagało większej ilości czasu, którego mi brakuje ostatnimi czasy...
+
     console.info(value+"  Localalization was changed");
 }
 
