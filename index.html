@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="fontavesome/css/all.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  
+</head>
+<div id="wrapper">
+  <div id="left">
+  </div>
+  <div id="right">
+  </div>
+
+</div>
+<div class="center nameApp ">
+    <div class="tittle">
+        <i>WEATHER APP</i>
+    </div>
+    <div class="subtittle">
+        <i>TEST TASK</i>
+    </div>
+  </div>
+<div class="right center">
+ 
+    <i id="celsius" class="grade activC" onclick="gradechange(this.id)"> CELSIUS </i>
+    <i id="fahrenheit" class="grade" onclick="gradechange(this.id)"> FAHRENHEIT </i>
+
+    <a href="#" class="fab fa-facebook-f"></a>
+    <a href="#" class="fab fa-twitter"></a>
+
+</div>
+
+<img  id="img" src="img/sun.svg"  alt="weather">
+
+<div class="content center">
+  <p><i>CURRENTLY IN 
+      <input id="location" type="text" name="location" value="WARSAW, POLAND" onblur="changelocation(this.value)">
+    , ITS</i></p>
+  <i><h1 id="info">MOSTLY SUNNY</h1></i> 
+  
+
+
+
+  <div class="temperatre center">
+    <p> <em id="temp">20</em> <sup id="supone"><em id="grade">C</em><sup id="suptwo">o</sup></sup></p>
+  </div>
+  <div class="button" onclick="randomplace()">
+   RANDOM PLACE
+  </div>
+</div>
+
+<div class="footter">
+    <em>
+      COPYRIGHT 2019
+    </em>
+    DONEC IN SEMPER TELLUS. SUSPENDISSE CONGUE LEO NIBH, NON PELLENTESQUE
+  </div>
+
+
+
+
+  <script src="scripts/scripts.js"></script>
+
+  </html>
+
