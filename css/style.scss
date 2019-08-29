@@ -1,0 +1,411 @@
+
+$maincolor: #FFDC38;
+$subcolor: #100E11;
+$colorfocus: #AA9225;
+$mainfont: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$temperaturecolor: #F9CC01;
+
+
+.footter{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: $mainfont;
+    em{
+        color: $maincolor;
+    }
+
+    margin-bottom: 20px;
+    margin-left: auto;
+    font-size: 8px;
+    max-width: 500px;
+    margin-top: 10%;
+    text-shadow: 1px 1px grey;
+}
+
+a{
+    color:$maincolor;
+    text-decoration: none;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: $maincolor;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+
+}
+
+.button{
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    border-style: solid;
+    border-color: white;
+    width: 150px;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+    cursor: pointer;
+    text-shadow: 1px 1px grey;
+
+    -ms-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg); 
+    transform: skewX(-11deg);
+}
+
+.button:hover{
+    background: $colorfocus;  
+} 
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    position: relative;
+    max-width: 300px;
+    margin-top: 20px;
+    
+}
+
+.content{
+    max-width:600px;
+    text-align: center;
+    font-family: $mainfont;
+    font-size: 27px;
+    text-shadow: 1px 1px grey;
+
+    h1{
+        max-width: 150px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        margin-bottom: 17px;
+    }
+    
+}
+
+
+a:hover{
+    color: $colorfocus;
+    border-color:  $colorfocus;
+}
+
+.box{
+    position: fixed;
+}
+
+.nameApp{
+    top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-family: $mainfont;
+    line-height: 26px;
+    border-style: solid;
+    border-color: white;
+    padding: 5px;
+    width: 200px;
+
+    .tittle{
+        font-weight: 900;
+        font-size: 27px;
+    }
+
+    .subtittle{
+        font-size: 19px;
+    }
+}
+
+.activC,.activF{
+    color: white !important;
+}
+
+.activF{
+    padding-left: 10px;
+    margin-right: 0px !important;
+}
+
+.activC:after{
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid white;
+    position: relative;
+    left: -41px;
+    top: 28px;
+}
+
+.activF:after{
+    content:"";
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid white;
+    position: relative;
+    left: -56px;
+    top: 28px;
+}
+
+.center {
+    margin: 0 auto;
+
+    color: white;
+    position: relative;
+  }
+
+.right{
+    margin-top: 40px;
+    width:303px;
+    padding-left: 45px; 
+}
+
+.grade{
+    color: grey;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: #ccc;
+  }
+  
+
+  
+  #left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    background: $maincolor;
+    -webkit-clip-path: polygon(0 0, 50% 0, 40% 100%, 0% 100%);
+    clip-path: polygon(0 0, 50% 0, 40% 100%, 0% 100%);
+  }
+  
+  #right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: $subcolor;
+    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 40% 100%);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 40% 100%);
+  }
+
+
+input{
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 0.8px dotted grey;
+    text-align: center;
+    -moz-outline: none;
+    outline: none; 
+    font-weight: 800;
+    font-family: $mainfont;
+    font-size: 27px;
+    text-transform: uppercase; 
+    max-width: 200px;
+    font-style: italic; 
+    width: auto;
+
+}
+
+  .temperatre{
+      background: $temperaturecolor;
+      max-width: 100px;
+      text-align: center;
+      border-radius: 60px;
+      border-style: solid;
+      border-color: $maincolor;
+      height: 100px;
+
+      p{
+        font-family: $mainfont;
+        color: white;
+
+        #temp{
+            font-size: 35px;
+            font-weight: 900;
+        }
+
+        #supone{
+            color: black; 
+            font-size: 15px;
+            font-weight: 750;
+            top: 36%;
+            left: 75%;
+            position: absolute;
+        }
+
+        #suptwo{
+            font-size: 8px !important;
+            top: 0px;
+            position: absolute;
+            font-weight: 750;
+         }
+      
+      }
+  }
+
+  @media only screen and (min-width: 800px) {
+    .nameApp {
+      margin-left: 20px;
+    }
+    .right{
+        right: 0px;
+        padding: 10px;
+        top:0px;
+        position: absolute;
+         margin-right: 20px;
+         margin-top: 20px !important;
+
+    }
+    .activC,.activF{
+        color: $maincolor !important;
+    }
+    
+    .activC:after,.activF:after{
+        border-top: 7px solid $maincolor; 
+    }
+    input{
+        max-width: 270px;
+    }
+    img{
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 10%;
+    }
+    .content{
+        margin-left: 40%;
+        margin-top: 15%;
+        h1{
+            margin-left: 62px;
+        }
+    }
+    .temperatre{
+        margin-top: -138px;
+        margin-left: 56%;
+    }
+
+    .button{
+        margin-left: 64px;
+        color:$maincolor;
+        border-color: $maincolor;
+    }
+    .footter{
+        margin-top:15%;
+        text-align: right;
+        margin-right: 60px; 
+    }
+    
+  }
+
+  @media only screen and (max-width: 350px) {
+
+    .right{
+        padding-left: 0px !important;
+    }
+   
+  }
+
+  @media only screen and (min-height: 450px) {
+
+    #right{
+        height: 206%;
+    }
+    #left{
+        height: 206%;
+    }
+   
+  }
+
+  @media only screen and (min-height: 540px) {
+
+    #right{
+        height: 175%;
+    }
+    #left{
+        height: 175%;
+    }
+   
+  }
+
+  @media only screen and (min-height: 647px) {
+
+    #right{
+        height: 100%;
+    }
+    #left{
+        height: 100%;
+    }
+   
+  }
+
+
+  @media only screen and (min-height: 720px) {
+
+    #right{
+        height: 130%;
+    }
+    #left{
+        height: 130%;
+    }
+   
+  }
+
+
+  @media only screen and (min-height: 800px) {
+
+    #right{
+        height: 118%;
+    }
+    #left{
+        height: 118%;
+    }
+   
+  }
+
+  @media only screen and (min-height: 800px) {
+
+    #right{
+        height: 118%;
+    }
+    #left{
+        height: 118%;
+    }
+   
+  }
+
+  @media only screen and (min-height: 900px) {
+
+    #right{
+        height: 100%;
+    }
+    #left{
+        height: 100%;
+    }
+   
+  }
+
+
+
+ 
