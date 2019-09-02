@@ -35,6 +35,9 @@ a{
     padding: 5px;
     margin-right: 5px;
     cursor: pointer;
+    -moz-user-select: none; 
+    user-select: none; 
+
 
 }
 
@@ -55,6 +58,8 @@ a{
     font-weight: 700;
     cursor: pointer;
     text-shadow: 1px 1px grey;
+    -moz-user-select: none; 
+    user-select: none; 
 
     -ms-transform: skewX(-20deg);
     -webkit-transform: skewX(-20deg); 
@@ -74,6 +79,9 @@ img{
     position: relative;
     max-width: 300px;
     margin-top: 20px;
+    -moz-user-select: none; 
+    user-select: none; 
+
     
 }
 
@@ -115,6 +123,8 @@ a:hover{
     border-color: white;
     padding: 5px;
     width: 200px;
+    -moz-user-select: none; 
+    user-select: none; 
 
     .tittle{
         font-weight: 900;
@@ -128,6 +138,9 @@ a:hover{
 
 .activC,.activF{
     color: white !important;
+    -moz-user-select: none; 
+    user-select: none; 
+
 }
 
 .activF{
@@ -176,6 +189,9 @@ a:hover{
     color: grey;
     margin-right: 10px;
     cursor: pointer;
+    -moz-user-select: none; 
+    user-select: none; 
+
 }
 
 body, html {
@@ -237,6 +253,8 @@ input{
       border-style: solid;
       border-color: $maincolor;
       height: 100px;
+      -moz-user-select: none; 
+      user-select: none;   
 
       p{
         font-family: $mainfont;

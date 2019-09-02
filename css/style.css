@@ -1,13 +1,13 @@
 .footter { position: relative; color: white; text-align: center; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; margin-bottom: 20px; margin-left: auto; font-size: 8px; max-width: 500px; margin-top: 10%; text-shadow: 1px 1px grey; }
 .footter em { color: #FFDC38; }
 
-a { color: #FFDC38; text-decoration: none; border-radius: 20px; border-style: solid; border-color: #FFDC38; width: 20px; height: 20px; text-align: center; padding: 5px; margin-right: 5px; cursor: pointer; }
+a { color: #FFDC38; text-decoration: none; border-radius: 20px; border-style: solid; border-color: #FFDC38; width: 20px; height: 20px; text-align: center; padding: 5px; margin-right: 5px; cursor: pointer; -moz-user-select: none; user-select: none; }
 
-.button { padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; font-size: 15px; border-style: solid; border-color: white; width: 150px; margin-top: 40px; text-align: center; margin-left: auto; margin-right: auto; font-weight: 700; cursor: pointer; text-shadow: 1px 1px grey; -ms-transform: skewX(-20deg); -webkit-transform: skewX(-20deg); transform: skewX(-11deg); }
+.button { padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; font-size: 15px; border-style: solid; border-color: white; width: 150px; margin-top: 40px; text-align: center; margin-left: auto; margin-right: auto; font-weight: 700; cursor: pointer; text-shadow: 1px 1px grey; -moz-user-select: none; user-select: none; -ms-transform: skewX(-20deg); -webkit-transform: skewX(-20deg); transform: skewX(-11deg); }
 
 .button:hover { background: #AA9225; }
 
-img { display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto; position: relative; max-width: 300px; margin-top: 20px; }
+img { display: block; margin-left: auto; margin-right: auto; width: 50%; height: auto; position: relative; max-width: 300px; margin-top: 20px; -moz-user-select: none; user-select: none; }
 
 .content { max-width: 600px; text-align: center; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; font-size: 27px; text-shadow: 1px 1px grey; }
 .content h1 { max-width: 150px; padding-right: 40px; margin-left: auto; margin-right: auto; margin-top: 0px; margin-bottom: 17px; }
@@ -16,11 +16,11 @@ a:hover { color: #AA9225; border-color: #AA9225; }
 
 .box { position: fixed; }
 
-.nameApp { top: 20px; margin-left: 20px; color: white; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; line-height: 26px; border-style: solid; border-color: white; padding: 5px; width: 200px; }
+.nameApp { top: 20px; margin-left: 20px; color: white; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; line-height: 26px; border-style: solid; border-color: white; padding: 5px; width: 200px; -moz-user-select: none; user-select: none; }
 .nameApp .tittle { font-weight: 900; font-size: 27px; }
 .nameApp .subtittle { font-size: 19px; }
 
-.activC, .activF { color: white !important; }
+.activC, .activF { color: white !important; -moz-user-select: none; user-select: none; }
 
 .activF { padding-left: 10px; margin-right: 0px !important; }
 
@@ -32,7 +32,7 @@ a:hover { color: #AA9225; border-color: #AA9225; }
 
 .right { margin-top: 40px; width: 303px; padding-left: 45px; }
 
-.grade { color: grey; margin-right: 10px; cursor: pointer; }
+.grade { color: grey; margin-right: 10px; cursor: pointer; -moz-user-select: none; user-select: none; }
 
 body, html { margin: 0; padding: 0; height: 100%; width: 100%; background: #ccc; }
 
@@ -42,7 +42,7 @@ body, html { margin: 0; padding: 0; height: 100%; width: 100%; background: #ccc;
 
 input { background: transparent; color: white; border: none; border-bottom: 0.8px dotted grey; text-align: center; -moz-outline: none; outline: none; font-weight: 800; font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; font-size: 27px; text-transform: uppercase; max-width: 200px; font-style: italic; width: auto; }
 
-.temperatre { background: #F9CC01; max-width: 100px; text-align: center; border-radius: 60px; border-style: solid; border-color: #FFDC38; height: 100px; }
+.temperatre { background: #F9CC01; max-width: 100px; text-align: center; border-radius: 60px; border-style: solid; border-color: #FFDC38; height: 100px; -moz-user-select: none; user-select: none; }
 .temperatre p { font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; color: white; }
 .temperatre p #temp { font-size: 35px; font-weight: 900; }
 .temperatre p #supone { color: black; font-size: 15px; font-weight: 750; top: 36%; left: 75%; position: absolute; }
